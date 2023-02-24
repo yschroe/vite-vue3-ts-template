@@ -1,13 +1,14 @@
 {
     "name": "vite-vue3-ts-template",
     "private": true,
-    "version": "0.0.0",
+    "version": "1.0.0",
     "scripts": {
         "dev": "vite",
         "build": "vue-tsc --noEmit && vite build",
         "preview": "vite preview"
     },
     "dependencies": {
+        "pinia": "^2.0.32",
         "vue": "^3.2.47"
     },
     "devDependencies": {
